@@ -1,0 +1,66 @@
+'''
+
+Filename: Madlibs.py
+Author: Urquizo, Rafaela
+Date: 08/31/36
+Instructor: Burgess
+'''
+
+# Display
+
+n1=input('Noun (a creepy place): \n')
+print()
+n2=input('Adjective (describing a dark ruler): \n')
+print()
+n3=input('Noun (body part): \n')
+print()
+n4=input('Verb (base form / infinitive): \n')
+print()
+n5=input('Noun (a liquid): \n')
+print()
+n6=input('Adjective (describing a foul smell or mist): \n')
+print()
+n7=input('Noun (a sharp weapon): \n')
+print()
+n8=input('Noun (plural, dark entities): \n')
+print()
+n9=input('Verb (past tense): \n')
+print()
+n10=input('Noun (a monster or creature): \n')
+print()
+n11=input('Adjective (describing eyes): \n')
+print()
+n12=input('Noun (a negative emotion): \n')
+print()
+n13=input('Noun (an item of clothing): \n')
+print()
+n14=input('Verb (past tense): \n')
+print()
+n15=input('Noun (a magical or sacred object): \n')
+print()
+n16=input('Adjective (describing a ruined world): \n')
+print()
+n17=input('Noun (plural, dead items): \n')
+print()
+n18=input('Verb (base form / infinitive): \n')
+print()
+n19=input('Noun (a dark color): \n')
+print()
+n20=input('Noun (a chilling sound): \n')
+print()
+
+#Display Dark Fantasy Story
+print('The Eclipse of the Ashen King')
+print()
+print(f'The blood moon illuminated the desolate {n1} of the {n2} emperor. In his trembling hands, he')
+print(f'held a severed {n3}, ready to {n4} the forbidden ritual. The cold stone floor was drenched in')
+print(f'{n5}, releasing a {n6} mist into the air.')
+print()
+print(f'Suddenly, he unsheathed his ancient {n7}. The shadows on the wall came alive,')
+print(f'transforming into ghastly {n8} that {n9} without mercy. A ravenous {n10} crawled out of the')
+print(f'abyss, its {n11} eyes burning with pure {n12}.')
+print()
+print(f'The emperor adjusted his tattered {n13} and {n14} his enchanted {n15}. Instantly, the')
+print(f'landscape became utterly {n16}. The sky tore open, raining withered {n17} that began to {n18}')
+print(f'the earth. A deep shade of {n19} consumed the horizon, accompanied by the echo of a')
+print(f'distant {n20}.')
