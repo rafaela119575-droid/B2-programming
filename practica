@@ -9,102 +9,110 @@ print('Welcome to the trivia game!')
 print('In just a moment, you’ll be presented with a series of questions.')
 print('Please answer each question carefully. Once you’ve completed the quiz,')
 print('you\'ll receive a score reflecting how many questions you answered correctly.')
-print()
+
 score = 0
 correct_answers = 0
 
+# Q1 - Corregido 'San Marine' a 'San Marino'
 q1 = input('What is the oldest country in the world?\n')
 if q1 == 'San Marino':
     score += 10
     correct_answers += 1
     print('Correct! You have been awarded 10 points!')
 else:
-    score -= 5
-    print('Incorrect! You have been penalized 5 points!')
+    print('Incorrect! You missed this question.')
 print()
+
+# Q2
 q2 = input('What is the longest river in the world?\n')
 if q2 == 'The Nile River':
     score += 10
     correct_answers += 1
     print('Correct! You have been awarded 10 points!')
 else:
-    score -= 5
-    print('Incorrect! You have been penalized 5 points!')
+    print('Incorrect! You missed this question.')
 print()
+
+# Q3
 q3 = input('How many time zones does Russia have?\n')
 if q3 == '11':
     score += 10
     correct_answers += 1
     print('Correct! You have been awarded 10 points!')
 else:
-    score -= 5
-    print('Incorrect! You have been penalized 5 points!')
+    print('Incorrect! You missed this question.')
 print()
+
+# Q4
 q4 = input('How many days does it take for the Earth to complete one orbit around the Sun?\n')
 if q4 == '365':
     score += 10
     correct_answers += 1
     print('Correct! You have been awarded 10 points!')
 else:
-    score -= 5
-    print('Incorrect! You have been penalized 5 points!')
+    print('Incorrect! You missed this question.')
 print()
+
+# Q5
 q5 = input('What is the capital of France?\n')
 if q5 == 'Paris':
     score += 10
     correct_answers += 1
     print('Correct! You have been awarded 10 points!')
 else:
-    score -= 5
-    print('Incorrect! You have been penalized 5 points!')
+    print('Incorrect! You missed this question.')
 print()
+
+# Q6
 q6 = input('What food never goes bad?\n')
 if q6 == 'Honey':
     score += 10
     correct_answers += 1
     print('Correct! You have been awarded 10 points!')
 else:
-    score -= 5
-    print('Incorrect! You have been penalized 5 points!')
+    print('Incorrect! You missed this question.')
 print()
+
+# Q7
 q7 = input('What is the name of the toy cowboy in the movie Toy Story?\n')
 if q7 == 'Woody':
     score += 10
     correct_answers += 1
     print('Correct! You have been awarded 10 points!')
 else:
-    score -= 5
-    print('Incorrect! You have been penalized 5 points!')
+    print('Incorrect! You missed this question.')
 print()
+
+# Q8
 q8 = input('What is the fairy\'s name in Peter Pan?\n')
 if q8 == 'Tinkerbell':
     score += 10
     correct_answers += 1
     print('Correct! You have been awarded 10 points!')
 else:
-    score -= 5
-    print('Incorrect! You have been penalized 5 points!')
+    print('Incorrect! You missed this question.')
 print()
+
+# Q9
 q9 = input('What is the longest mountain range above sea level in the world?\n')
 if q9 == 'The Andes':
     score += 10
     correct_answers += 1
     print('Correct! You have been awarded 10 points!')
 else:
-    score -= 5
-    print('Incorrect! You have been penalized 5 points!')
+    print('Incorrect! You missed this question.')
 print()
+
+# Q10
 q10 = input('What is the name of the largest island in the world?\n')
 if q10 == 'Greenland':
     score += 10
     correct_answers += 1
     print('Correct! You have been awarded 10 points!')
 else:
-    score -= 5
-    print('Incorrect! You have been penalized 5 points!')
+    print('Incorrect! You missed this question.')
 print()
-if score < 0:
-    score = 0
+
 print('Thank you for playing the Trivia Game!')
 print(f'You answered {correct_answers}/10 questions correctly,')
 print(f'and received a score of {score}/100!')
